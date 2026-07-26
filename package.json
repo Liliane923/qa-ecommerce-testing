@@ -1,0 +1,15 @@
+{
+  "name": "qa-ecommerce-testing",
+  "version": "1.0.0",
+  "description": "Este repositório contém a documentação de garantia de qualidade, análise de requisitos e cenários de testes para uma plataforma de E-Commerce.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.19.0"
+  }
+}
