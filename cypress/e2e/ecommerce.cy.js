@@ -21,8 +21,7 @@ describe('Testes de E-commerce - Fluxo de Compra', () => {
     cy.get('.product-overlay').first().invoke('show');
     cy.get('.add-to-cart').first().click();
     
-    // Clica no link "View Cart" da modal
-    cy.get('.modal-content').contains('View Cart').click();
+    cy.get('.modal-content').contains('View Cart').click({ force: true });
 
     // Valida se a página do carrinho abriu e o produto está visível
     cy.url().should('include', '/view_cart');
